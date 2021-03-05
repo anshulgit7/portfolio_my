@@ -1,0 +1,17 @@
+/*
+ * Name:        Boo Theme Custom
+ * Description: Add here all your CSS customizations
+ */
+body > nav.navbar {
+  margin-bottom: 0;
+}
+
+.blog-single-alt .has-post-thumbnail .entry-content {
+    padding-left:  0 !important;
+    padding-right: 0 !important;
+}
+  
+/*
+.et-db #et-boc .et-l .et_pb_section {
+    padding:  0 !important;
+}*/

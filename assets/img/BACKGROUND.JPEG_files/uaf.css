@@ -1,0 +1,13 @@
+				@font-face {
+					font-family: 'noticia-text';
+					src: url('/wp-content/uploads/useanyfont/9188Noticia-Text.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/9188Noticia-Text.woff') format('woff');
+					font-display: auto;
+				}
+
+				.noticia-text{font-family: 'noticia-text' !important;}
+
+						body{
+					font-family: 'noticia-text' !important;
+				}
+		

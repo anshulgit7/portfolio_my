@@ -1,0 +1,144 @@
+/*
+Theme Name: Boo Child theme of boo
+Theme URI: http://boo.themerella.com/
+Description: Child theme of boo theme for the Boo theme
+Author: ThemeRella Team
+Author URI: https://themeforest.net/user/themerella
+Template:  boo
+Description: Versatile, Powerful and Ultimate Wordpress Theme Made by Themerella. Boo is endlessly customizable, fully responsive and retina ready Wordpress theme.
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: boo-child
+Tags: featured-images, two-columns, custom-header, custom-menu, flexible-header, full-width-template, post-formats, theme-options
+*/
+.ontraport-form iframe {
+	max-width: 260px !important;
+}
+
+.cs_header_inner_section {
+	width: 100% !important; 
+}
+.home_menu_section {
+	display: flex;
+    flex-direction: row-reverse;
+	margin-right: 0px !important;
+	width: 68%;
+}
+.logo_section {
+	width: 10%;
+}
+.header_call_to_action {
+	width: 16%;
+}
+
+/* 07-12-2019 */
+.epi-solution-class p a img.vp-img ,
+.epi-reassures-class img.vp-img {
+    height: 500px !important;
+}
+
+.epi-stands-class img.vp-img {
+    height: 500px !important;
+}
+
+.epi-service-class{
+	margin: -2px !important;
+	padding: .7em 1.5em !important;
+	color: #ff6340 !important;
+	border: 2px solid;
+}
+
+.epi-service-class:hover{
+	background:#ff6340 !important;
+	color:#fff !important;
+	border: 2px solid;
+}
+
+/* 19-02-2020 Start */
+
+.et-fb-preview--desktop .et_vertical_nav #et-main-area.et-fb-iframe-ancestor, .et-fb-preview--desktop .et-fb-iframe-ancestor, .et-fb-preview--tablet .et_vertical_nav #et-main-area.et-fb-iframe-ancestor, .et-fb-preview--tablet .et-fb-iframe-ancestor, .et-fb-preview--phone .et_vertical_nav #et-main-area.et-fb-iframe-ancestor, .et-fb-preview--phone .et-fb-iframe-ancestor {
+    height: auto !important;
+    width: 100% !important;
+}
+
+.et-fb-preview--desktop #et-boc, .et-fb-preview--desktop .et-l, #et-fb-app-frame, .et-fb-preview--tablet #et-boc, .et-fb-preview--tablet .et-l, #et-fb-app-frame, .et-fb-preview--phone #et-boc, .et-fb-preview--phone .et-l, #et-fb-app-frame {
+    position: static;
+}
+
+.et-fb-preview--tablet #et-boc, .et-fb-preview--tablet #et-boc .et-l, .et-fb-preview--phone #et-boc, .et-fb-preview--phone #et-boc .et-l {
+    position: static !important;
+}
+
+.et-l--header .et_builder_inner_content {
+    position: inherit !important;
+}
+
+.main-sidebar .widget_categories form {
+    margin: -20px 20px 20px 20px !important;
+}
+
+.main-sidebar .widget_categories .widget-title {
+    margin-top: 0 !important;
+    padding-top: 40px !important;
+    padding-left: 20px !important;
+    margin-bottom: 40px !important;
+}
+#menu-sidenavigation-1 li a {
+    padding: 10px 15px !important;
+}
+
+#menu-sidenavigation-1 li {
+    margin-top: 0 !important;
+}
+/* 19-02-2020 End */
+
+body #et-boc .et-fb-iframe-ancestor, .et-fb-iframe-ancestor, body .et_vertical_nav #et-main-area.et-fb-iframe-ancestor {
+    height: auto !important;
+}
+
+.et-db #et-boc .et-l .use-cases .et_pb_button_module_wrapper.et_pb_button_alignment_center {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+body .blog-two-col > div article .post-content {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 10px !important
+}
+
+.et-db #et-boc .et-l .et-fb-item-button-wrap--add, .et-db #et-boc .et-l .et-fb-module-button-wrap--add, .et-db #et-boc .et-l .et-fb-row-button-wrap--add, .et-db #et-boc .et-l .et-fb-section-button-wrap--add {
+    bottom: 10px;
+}
+
+@media (min-width: 767px) {
+    body .blog-two-col > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    body .blog-two-col > div article {
+        max-width: calc(100% / 2 - 15px);
+        flex: calc(100% / 2 - 15px);
+    }
+}
+
+.tg-item-media-inner div {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+@media(min-width:769px)
+{
+.et-db #et-boc .et-l .et_pb_menu_0_tb_header.et_pb_menu ul li.mobilegetquote a
+{
+	background: #ff6340 !important;
+}
+}
